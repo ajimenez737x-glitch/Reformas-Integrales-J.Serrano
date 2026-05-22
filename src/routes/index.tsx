@@ -10,7 +10,7 @@ import bathroomImg from "@/assets/service-bathroom.jpg";
 import floorsImg from "@/assets/service-floors.jpg";
 import teamImg from "@/assets/team.jpg";
 import teamNewImg from "@/assets/team_new.png";
-import mapImg from "@/assets/map_new.png";
+import mapImg from "@/assets/map_huelva.png";
 import ctaImg from "@/assets/cta-bg.jpg";
 
 export const Route = createFileRoute("/")({
@@ -422,9 +422,9 @@ function Index() {
 
           <Reveal delay={1}>
             <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-background shadow-xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101569.17253594165!2d-7.042852277028163!3d37.28945645318534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfee364b73b5%3A0xc4eb02ec56b0d912!2sHuelva!5e0!3m2!1ses!2ses!4v1714488814777!5m2!1ses!2ses"
-                title="Mapa de la provincia de Huelva"
+              <img
+                src={mapImg}
+                alt="Mapa de la provincia de Huelva"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />

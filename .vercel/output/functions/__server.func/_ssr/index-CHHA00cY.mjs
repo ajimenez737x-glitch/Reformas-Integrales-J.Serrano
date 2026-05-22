@@ -27,7 +27,7 @@ function Nav() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#top", className: `font-display text-2xl tracking-tight ${scrolled || open ? "text-foreground" : "text-background"}`, children: [
             "J.",
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "var(--sand)" }, children: "Serrano" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "ml-1 hidden text-xs tracking-[0.24em] uppercase opacity-70 md:inline", children: "Almería" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "ml-1 hidden text-xs tracking-[0.24em] uppercase opacity-70 md:inline", children: "Huelva" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "nav",
@@ -246,8 +246,8 @@ const items = [
     a: "Sí. Visitamos tu vivienda, escuchamos tu proyecto y elaboramos un presupuesto detallado y transparente, totalmente gratuito y sin compromiso."
   },
   {
-    q: "¿Trabajáis fuera de Abla?",
-    a: "Trabajamos en Abla y en toda la provincia de Almería, incluyendo capital, comarcas del Almanzora, Levante y Poniente almeriense."
+    q: "¿Trabajáis fuera de la capital?",
+    a: "Trabajamos en la capital y en toda la provincia de Huelva, incluyendo los pueblos de la costa y el interior."
   },
   {
     q: "¿Realizáis reformas integrales?",
@@ -306,7 +306,6 @@ const kitchenImg = "/assets/service-kitchen-urVOsY4Z.jpg";
 const bathroomImg = "/assets/service-bathroom-SeGSdFLL.jpg";
 const floorsImg = "/assets/service-floors-DdQv6NUj.jpg";
 const teamNewImg = "/assets/team_new-CIL_VAQz.png";
-const mapImg = "/assets/map_new-CnGavohi.png";
 const ctaImg = "/assets/cta-bg-tL9o6GuA.jpg";
 const services = [{
   title: "Reformas integrales",
@@ -353,12 +352,12 @@ function Index() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { id: "top", className: "bg-background text-foreground", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Nav, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative h-[100svh] w-full overflow-hidden", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: heroImg, alt: "Interior de vivienda reformada en Almería", className: "absolute inset-0 h-full w-full object-cover animate-fade", width: 1920, height: 1280 }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: heroImg, alt: "Interior de vivienda reformada en Huelva", className: "absolute inset-0 h-full w-full object-cover animate-fade", width: 1920, height: 1280 }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-gradient-to-b from-black/55 via-black/35 to-black/70" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 mx-auto flex h-full max-w-7xl flex-col px-6 pt-32 pb-16 md:px-10 md:pt-40", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "eyebrow text-background/80 animate-rise", style: {
           animationDelay: "0.1s"
-        }, children: "Reformas integrales en Almería" }),
+        }, children: "Reformas integrales en Huelva" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "font-display mt-6 max-w-5xl text-[44px] leading-[1.02] text-background md:text-[88px] lg:text-[108px] animate-rise", style: {
           animationDelay: "0.3s"
         }, children: [
@@ -407,7 +406,7 @@ function Index() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-10 max-w-xl text-lg leading-relaxed text-foreground/85", children: [
             "En Reformas Integrales J.Serrano nos apasiona transformar viviendas en hogares llenos de vida y estilo. Situados en",
             " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium", children: "El Puente del Río, Almería" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium", children: "Huelva" }),
             ", nos dedicamos a ofrecer soluciones integrales de diseño y construcción, cuidando cada detalle para superar las expectativas de nuestros clientes."
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground", children: "Creemos que cada espacio cuenta una historia. Por eso, te acompañamos en cada paso del camino, garantizando acabados de máxima calidad, puntualidad y una comunicación fluida. Tu proyecto soñado, hecho realidad." })
@@ -492,16 +491,16 @@ function Index() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "border-y border-border bg-secondary py-24 md:py-40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:items-center md:gap-20 md:px-10", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(Reveal, { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "eyebrow text-muted-foreground", children: "— Zona de trabajo" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display mt-6 text-5xl leading-[0.98] md:text-7xl", children: "Almería, de costa a sierra." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-8 max-w-md text-lg leading-relaxed text-muted-foreground", children: "Con base en El Puente del Río, trabajamos en toda la provincia de Almería. Desde el casco urbano hasta cortijos en el interior, llegamos donde tu proyecto lo necesite." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "mt-10 grid grid-cols-2 gap-y-3 text-sm", children: ["El Puente del Río", "Almería capital", "Roquetas", "El Ejido", "Vícar", "Berja", "Fiñana", "Tabernas"].map((c) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display mt-6 text-5xl leading-[0.98] md:text-7xl", children: "Huelva, de costa a sierra." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-8 max-w-md text-lg leading-relaxed text-muted-foreground", children: "Con base en Huelva, trabajamos en toda la provincia. Desde el casco urbano hasta cortijos en el interior, llegamos donde tu proyecto lo necesite." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "mt-10 grid grid-cols-2 gap-y-3 text-sm", children: ["Huelva capital", "Lepe", "Almonte", "Moguer", "Isla Cristina", "Ayamonte", "Cartaya", "Punta Umbría"].map((c) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "inline-block h-1.5 w-1.5 rounded-full", style: {
             background: "var(--sand)"
           } }),
           c
         ] }, c)) })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 1, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative aspect-square w-full overflow-hidden rounded-xl bg-background shadow-xl", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: mapImg, alt: "Mapa de la provincia de Almería", className: "h-full w-full object-cover transition-transform duration-700 hover:scale-105", loading: "lazy" }) }) })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Reveal, { delay: 1, children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "relative aspect-square w-full overflow-hidden rounded-xl bg-background shadow-xl", children: /* @__PURE__ */ jsxRuntimeExports.jsx("iframe", { src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101569.17253594165!2d-7.042852277028163!3d37.28945645318534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfee364b73b5%3A0xc4eb02ec56b0d912!2sHuelva!5e0!3m2!1ses!2ses!4v1714488814777!5m2!1ses!2ses", title: "Mapa de la provincia de Huelva", className: "h-full w-full object-cover transition-transform duration-700 hover:scale-105", loading: "lazy" }) }) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "faq", className: "bg-background py-24 md:py-40", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mx-auto max-w-7xl px-6 md:px-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid gap-16 md:grid-cols-12", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(Reveal, { className: "md:col-span-4", children: [
@@ -542,14 +541,14 @@ function Index() {
               color: "var(--sand)"
             }, children: "Serrano" })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 max-w-xs text-sm text-muted-foreground", children: "Reformas integrales y albañilería en Almería. Diseño, ejecución y acabados perfeccionistas." })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 max-w-xs text-sm text-muted-foreground", children: "Reformas integrales y albañilería en Huelva. Diseño, ejecución y acabados perfeccionistas." })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-3", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "eyebrow text-muted-foreground", children: "Contacto" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "mt-5 space-y-3 text-sm", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:+34698400549", className: "link-underline", children: "+34 698 40 05 49" }) }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "mailto:info@reformasjserrano.es", className: "link-underline", children: "info@reformasjserrano.es" }) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "text-muted-foreground", children: "El Puente del Río, Almería" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { className: "text-muted-foreground", children: "Huelva" })
           ] })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-2", children: [

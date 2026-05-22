@@ -66,11 +66,11 @@ const Route$1 = createRootRouteWithContext()({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        title: "Reformas Integrales J.Serrano · Reformas integrales premium en Almería"
+        title: "Reformas Integrales J.Serrano · Reformas integrales premium en Huelva"
       },
       {
         name: "description",
-        content: "Reformas integrales, baños, cocinas y rehabilitación en Almería. Empresa femenina con acabados perfeccionistas, trato cercano y presupuestos sin compromiso."
+        content: "Reformas integrales, baños, cocinas y rehabilitación en Huelva. Empresa con acabados perfeccionistas, trato cercano y presupuestos sin compromiso."
       },
       { name: "author", content: "Reformas Integrales J.Serrano" },
       {
@@ -79,7 +79,7 @@ const Route$1 = createRootRouteWithContext()({
       },
       {
         property: "og:description",
-        content: "Especialistas en reformas integrales de viviendas en Almería. Acabados impecables, trato cercano y diseño moderno."
+        content: "Especialistas en reformas integrales de viviendas en Huelva. Acabados impecables, trato cercano y diseño moderno."
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -118,7 +118,7 @@ function RootComponent() {
   const { queryClient } = Route$1.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter = () => import("./index-DpfEZO7B.mjs");
+const $$splitComponentImporter = () => import("./index-CHHA00cY.mjs");
 const Route = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter, "component")
 });
