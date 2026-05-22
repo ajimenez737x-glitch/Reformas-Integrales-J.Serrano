@@ -80,7 +80,7 @@ function Index() {
       <section className="relative h-[100svh] w-full overflow-hidden">
         <img
           src={heroImg}
-          alt="Interior de vivienda reformada en Almería"
+          alt="Interior de vivienda reformada en Huelva"
           className="absolute inset-0 h-full w-full object-cover animate-fade"
           width={1920}
           height={1280}
@@ -92,7 +92,7 @@ function Index() {
             className="eyebrow text-background/80 animate-rise"
             style={{ animationDelay: "0.1s" }}
           >
-            Reformas integrales en Almería
+            Reformas integrales en Huelva
           </p>
           <h1
             className="font-display mt-6 max-w-5xl text-[44px] leading-[1.02] text-background md:text-[88px] lg:text-[108px] animate-rise"
@@ -206,7 +206,7 @@ function Index() {
               <Reveal delay={1}>
                 <p className="mt-10 max-w-xl text-lg leading-relaxed text-foreground/85">
                   En Reformas Integrales J.Serrano nos apasiona transformar viviendas en hogares llenos de vida y estilo. Situados en{" "}
-                  <span className="font-medium">El Puente del Río, Almería</span>, nos dedicamos a ofrecer soluciones integrales de diseño y construcción, cuidando cada detalle para superar las expectativas de nuestros clientes.
+                  <span className="font-medium">Huelva</span>, nos dedicamos a ofrecer soluciones integrales de diseño y construcción, cuidando cada detalle para superar las expectativas de nuestros clientes.
                 </p>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
                   Creemos que cada espacio cuenta una historia. Por eso, te acompañamos en cada paso del camino, garantizando acabados de máxima calidad, puntualidad y una comunicación fluida. Tu proyecto soñado, hecho realidad.
@@ -398,15 +398,15 @@ function Index() {
           <Reveal>
             <p className="eyebrow text-muted-foreground">— Zona de trabajo</p>
             <h2 className="font-display mt-6 text-5xl leading-[0.98] md:text-7xl">
-              Almería, de costa a sierra.
+              Huelva, de costa a sierra.
             </h2>
             <p className="mt-8 max-w-md text-lg leading-relaxed text-muted-foreground">
-              Con base en El Puente del Río, trabajamos en toda la provincia de Almería.
+              Con base en Huelva, trabajamos en toda la provincia.
               Desde el casco urbano hasta cortijos en el interior, llegamos donde
               tu proyecto lo necesite.
             </p>
             <ul className="mt-10 grid grid-cols-2 gap-y-3 text-sm">
-              {["El Puente del Río", "Almería capital", "Roquetas", "El Ejido", "Vícar", "Berja", "Fiñana", "Tabernas"].map(
+              {["Huelva capital", "Lepe", "Almonte", "Moguer", "Isla Cristina", "Ayamonte", "Cartaya", "Punta Umbría"].map(
                 (c) => (
                   <li key={c} className="flex items-center gap-3">
                     <span
@@ -422,9 +422,9 @@ function Index() {
 
           <Reveal delay={1}>
             <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-background shadow-xl">
-              <img
-                src={mapImg}
-                alt="Mapa de la provincia de Almería"
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101569.17253594165!2d-7.042852277028163!3d37.28945645318534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfee364b73b5%3A0xc4eb02ec56b0d912!2sHuelva!5e0!3m2!1ses!2ses!4v1714488814777!5m2!1ses!2ses"
+                title="Mapa de la provincia de Huelva"
                 className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
                 loading="lazy"
               />
@@ -525,7 +525,7 @@ function Index() {
                 J.<span style={{ color: "var(--sand)" }}>Serrano</span>
               </div>
               <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-                Reformas integrales y albañilería en Almería. Diseño, ejecución
+                Reformas integrales y albañilería en Huelva. Diseño, ejecución
                 y acabados perfeccionistas.
               </p>
             </div>
@@ -546,7 +546,7 @@ function Index() {
                     info@reformasjserrano.es
                   </a>
                 </li>
-                <li className="text-muted-foreground">El Puente del Río, Almería</li>
+                <li className="text-muted-foreground">Huelva</li>
               </ul>
             </div>
 

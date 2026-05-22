@@ -36,7 +36,7 @@ export function Nav() {
           <a href="#top" className={`font-display text-2xl tracking-tight ${scrolled || open ? "text-foreground" : "text-background"}`}>
             J.<span style={{ color: "var(--sand)" }}>Serrano</span>
             <span className="ml-1 hidden text-xs tracking-[0.24em] uppercase opacity-70 md:inline">
-              Almería
+              Huelva
             </span>
           </a>
 

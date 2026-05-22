@@ -74,12 +74,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         title:
-          "Reformas Integrales J.Serrano · Reformas integrales premium en Almería",
+          "Reformas Integrales J.Serrano · Reformas integrales premium en Huelva",
       },
       {
         name: "description",
         content:
-          "Reformas integrales, baños, cocinas y rehabilitación en Almería. Empresa femenina con acabados perfeccionistas, trato cercano y presupuestos sin compromiso.",
+          "Reformas integrales, baños, cocinas y rehabilitación en Huelva. Empresa con acabados perfeccionistas, trato cercano y presupuestos sin compromiso.",
       },
       { name: "author", content: "Reformas Integrales J.Serrano" },
       {
@@ -89,7 +89,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Especialistas en reformas integrales de viviendas en Almería. Acabados impecables, trato cercano y diseño moderno.",
+          "Especialistas en reformas integrales de viviendas en Huelva. Acabados impecables, trato cercano y diseño moderno.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

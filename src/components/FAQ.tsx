@@ -6,8 +6,8 @@ const items = [
     a: "Sí. Visitamos tu vivienda, escuchamos tu proyecto y elaboramos un presupuesto detallado y transparente, totalmente gratuito y sin compromiso.",
   },
   {
-    q: "¿Trabajáis fuera de Abla?",
-    a: "Trabajamos en Abla y en toda la provincia de Almería, incluyendo capital, comarcas del Almanzora, Levante y Poniente almeriense.",
+    q: "¿Trabajáis fuera de la capital?",
+    a: "Trabajamos en la capital y en toda la provincia de Huelva, incluyendo los pueblos de la costa y el interior.",
   },
   {
     q: "¿Realizáis reformas integrales?",
